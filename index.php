@@ -41,6 +41,7 @@ if ($err) {
                     <p>En Yüksek: " . $weatherData['max'] . "</p>
                 </div>";
         }
+        echo "</div>";
     } else {
         echo "Hava durumu verisi yok";
     }
